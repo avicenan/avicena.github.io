@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest",
-    "deploy": "bun run build && bunx push-dir --dir=dist --branch=build --cleanup"
+    "deploy": "bun run build && bunx push-dir --dir=dist --branch=build"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
